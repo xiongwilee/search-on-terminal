@@ -16,9 +16,15 @@
 
 其他shell环境配置文件目录所在位置为：
 
-	~/.zshrc #zsh
-	/etc/bashrc #MAC
-	~/.bashrc #Linux
+	# zsh
+	~/.zshrc 		
+	
+	# MAC
+	/etc/bashrc 	
+	
+	# Linux
+	~/.bashrc 		
+	
 
 ### 三、重启终端，即可使用：
 
