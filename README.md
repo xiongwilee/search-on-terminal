@@ -4,15 +4,15 @@
 
 ### 一、下载文件：
 
-下载`search.sh`文件到任意位置，比如我放在：
+下载`search_on_terminal.sh`文件到任意位置，比如我放在：
 
-	~/tools/search.sh
+	~/tools/search_on_terminal.sh
 
 ### 二、加入自定义命令：
 
 修改shell配置文件，通过`alias`加入自定义命令；例如，我用的`zsh`，则在`~/.zshrc`中添加配置：
 
-	alias s='sh ~/tools/search.sh'
+	alias s='sh ~/tools/search_on_terminal.sh'
 
 其他shell环境配置文件目录所在位置为：
 
