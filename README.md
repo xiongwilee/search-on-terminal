@@ -28,7 +28,7 @@
 
 ### 三、重启终端，即可使用：
 
-	# s -[opt] [search word] # 如果没有[opt]，默认使用谷歌香港搜索
+	$ s -[opt] [search word] # 如果没有[opt]，默认使用谷歌香港搜索
 
 参数说明：
 
@@ -43,16 +43,16 @@
 例如：
 
 	# 打开http://weibo.com
-	# s -w weibo.com 	
+	$ s -w weibo.com 	
 
 	# 使用百度搜索“天安门”
-	# s -b 天安门 		
+	$ s -b 天安门 		
 
 	# 使用谷歌香港搜索“天安门”
-	# s -g 天安门		
+	$ s -g 天安门		
 
 	# 使用http://linux.51yip.com/search/ 搜索“find”命令的使用方法
-	# s -l find		
+	$ s -l find		
 
 	# 使用github搜索node
-	# s -git node		
+	$ s -git node		
