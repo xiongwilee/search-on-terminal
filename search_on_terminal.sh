@@ -15,6 +15,9 @@ case $1 in
     -git)
 		web="https://github.com/search?q="
 		;;
+    -npm)
+		web="https://www.npmjs.com/search?q="
+		;;
     *)
 		web="https://www.google.com.hk/search?q="
 		;;
@@ -22,7 +25,7 @@ esac
 
 for item in $*
 do
-	if [[ "$item" != "-w" && "$item" != "-b" && "$item" != "-g" &&  "$item" != "-l" && "$item" != "-git" ]]; then
+	if [[ "$item" != "-w" && "$item" != "-b" && "$item" != "-g" &&  "$item" != "-l" && "$item" != "-git" && "$item" != "-npm" ]]; then
 		if [ "$searchWord" == "" ];then
 			searchWord="$item";
 		else
