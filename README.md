@@ -28,21 +28,26 @@
 
 ### 三、重启终端，即可使用：
 
-	$ s -[opt] [search word] # 如果没有[opt]，默认使用谷歌香港搜索
+```
+    命令行搜索工具
+    $0 -[opt] [search word] # 如果没有[opt]，默认使用谷歌搜索
+    参数说明：
+    -[opt] : 搜索方式，默认使用谷歌香港搜索
+        -v|--version      查看工具的版本号
+        -h|--help         获取帮助
+        -w|--web          直接打开网站
+        -b|--baidu        用百度搜索
+        -g|--google       用谷歌搜索
+        -l|--shell        搜索命令行
+        -i|--github       在github上搜索
+        -n|--npm          在npm上搜索
+    [search word] : 搜索词，可以通过空格隔开
 
-参数说明：
+```
 
-	-[opt] : 搜索方式，默认使用谷歌香港搜索
-		-w : 直接打开网站
-		-b : 使用百度搜索
-		-g : 使用谷歌搜索
-		-l : 搜索shell命令
-		-git : 使用github搜索仓库
-	[search word] : 搜索词，可以通过空格隔开
-
-例如：
-
-	# 打开http://weibo.com
+示例如下：
+```
+	# 打开https://weibo.com
 	$ s -w weibo.com 	
 
 	# 使用百度搜索“天安门”
@@ -56,3 +61,4 @@
 
 	# 使用github搜索node
 	$ s -git node		
+```
