@@ -64,7 +64,6 @@ function search(){
 			;;
 	esac
 
-	echo "正在搜索：${web}${words[*]} ..."
 	key=`echo ${words[*]} | tr -d '\n' | xxd -plain | sed 's/\(..\)/%\1/g'`
 	open "${web}${key}"
 }
